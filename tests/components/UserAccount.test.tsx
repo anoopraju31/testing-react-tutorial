@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import UserAccount from '../../src/components/UserAccount'
-import { User } from '../../src/entities'
+import { type User } from '../../src/entities'
 
 describe('User Account', () => {
 	it("Should render user's name", () => {
